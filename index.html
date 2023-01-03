@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>URL shortener</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/46ffad99ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav">
+        <div id="logo-sec">
+          <div id="logo"></div>
+        </div>
+        <div id="mobile-nav">
+          <div id="links">
+            <div class="nav-link"><a href="#">Features</a></div>
+            <div class="nav-link"><a href="#">Pricing</a></div>
+            <div class="nav-link"><a href="#">Resources</a></div>
+          </div>
+          <div id="login-signin">
+            <div id="login">
+              <button id="login-btn">Login</button>
+            </div>
+            <div id="signin">
+              <button id="signin-btn">Sign in</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="sec-1">
+        <div id="text-holder">
+          <div id="text-holder-div">
+            <h1 id="motto">More than just shorter links</h1>
+            <p id="some-text">
+              Build your brand's recognition and get detailed insights on how
+              your links are performing
+            </p>
+            <button class="get-started">Get Started</button>
+          </div>
+        </div>
+        <div id="image-holder">
+          <div id="image"></div>
+        </div>
+      </div>
+
+      <div id="url-shortener-holder">
+        <div id="svg-holder">
+          <form>
+            <input
+              type="text"
+              id="link"
+              placeholder="Shorten the link here..."
+              required
+            />
+            <button type="submit" id="submit-btn">Shorten it</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="sec-2">
+        <div id="shortened-links">
+          <!-- <div class="link-block">
+            <p class="original-link">
+              file:///C:/Users/krist/Documents/url-shortening-api-master/image
+            </p>
+            <div>
+              <p class="shortened-link">file:///C:/Users/krist/Documen</p>
+              <button class="copy">Copy!</button>
+            </div>
+          </div> -->
+        </div>
+
+        <div id="stats">
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard
+          </p>
+
+          <div id="stat-cards">
+            <div class="card">
+              <div class="circle" id="circle1"><span class="image"></span></div>
+              <h3>Brand recognition</h3>
+              <p>
+                Boost your brand recognition with each clikc. Generic links dont
+                mean a thing. Branded links help instil confidence into your
+                brand
+              </p>
+            </div>
+            <div id="line1"></div>
+            <div class="card" id="card2">
+              <div class="circle" id="circle2"><span class="image"></span></div>
+              <h3>Detailed records</h3>
+              <p>
+                Boost your brand recognition with each clikc. Generic links dont
+                mean a thing. Branded links help instil confidence into your
+                brand
+              </p>
+            </div>
+            <div id="line2"></div>
+            <div class="card" id="card3">
+              <div class="circle" id="circle3"><span class="image"></span></div>
+              <h3>Fully customizable</h3>
+              <p>
+                Boost your brand recognition with each clikc. Generic links dont
+                mean a thing. Branded links help instil confidence into your
+                brand
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="sec-3">
+        <h1>Boost your links today</h1>
+        <button class="get-started">Get Started</button>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer-sec-1">
+        <h2 id="footer-logo">Shortly</h2>
+      </div>
+      <div id="footer-sec-2" class="footer-link-sec">
+        <h4 class="foo-link-title">Features</h4>
+        <a href="#" class="foo-link">Link Shortening</a>
+        <a href="#" class="foo-link">Branded Links</a>
+        <a href="#" class="foo-link">Analytics</a>
+      </div>
+      <div id="footer-sec-3" class="footer-link-sec">
+        <h4 class="foo-link-title">Recources</h4>
+        <a href="#" class="foo-link">Blog</a>
+        <a href="#" class="foo-link">Develpers</a>
+        <a href="#" class="foo-link">Support</a>
+      </div>
+      <div id="footer-sec-4" class="footer-link-sec">
+        <h4 class="foo-link-title">Company</h4>
+        <a href="#" class="foo-link">About</a>
+        <a href="#" class="foo-link">our Team</a>
+        <a href="#" class="foo-link">Careers</a>
+        <a href="#" class="foo-link">Contact</a>
+      </div>
+      <div id="footer-sec-5">
+        <a class="icons" href="#">
+          <img
+            src="./images/icon-facebook.svg"
+            id="fc-icon"
+            alt="icon-facebook"
+          />
+        </a>
+        <a class="icons" href="#">
+          <img
+            src="./images/icon-instagram.svg"
+            alt="icon-instagram"
+            id="ins-icon"
+          />
+        </a>
+        <a class="icons" href="#">
+          <img
+            src="./images/icon-pinterest.svg"
+            alt="icon-pinterest"
+            id="pin-icon"
+          />
+        </a>
+        <a class="icons" href="#">
+          <img
+            src="./images/icon-twitter.svg"
+            alt="icon-twitter"
+            id="twi-icon"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://kristofblog.netlify.app/" target="_blank">Kristof</a>.
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
