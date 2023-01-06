@@ -30,12 +30,13 @@
         <div id="logo-sec">
           <div id="logo"></div>
         </div>
-        <div id="mobile-nav">
+        <div class="flex none">
           <div id="links">
             <div class="nav-link"><a href="#">Features</a></div>
             <div class="nav-link"><a href="#">Pricing</a></div>
             <div class="nav-link"><a href="#">Resources</a></div>
           </div>
+          <hr id="nav-line" />
           <div id="login-signin">
             <div id="login">
               <button id="login-btn">Login</button>
@@ -45,6 +46,9 @@
             </div>
           </div>
         </div>
+        <button id="hamburger" onclick="toggleNav()">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
     </header>
 
@@ -61,7 +65,7 @@
           </div>
         </div>
         <div id="image-holder">
-          <div id="image"></div>
+          <img src="./images/illustration-working.svg" alt="" id="image" />
         </div>
       </div>
 
